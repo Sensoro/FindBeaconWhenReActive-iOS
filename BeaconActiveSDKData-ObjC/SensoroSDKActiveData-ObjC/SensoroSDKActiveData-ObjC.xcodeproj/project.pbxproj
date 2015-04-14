@@ -1,0 +1,448 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		847AA8AA1ADBCD4100B304A1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 847AA8A91ADBCD4100B304A1 /* main.m */; };
+		847AA8B81ADBCD4100B304A1 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 847AA8B61ADBCD4100B304A1 /* LaunchScreen.xib */; };
+		847AA8C41ADBCD4100B304A1 /* SensoroSDKActiveData_ObjCTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 847AA8C31ADBCD4100B304A1 /* SensoroSDKActiveData_ObjCTests.m */; };
+		847AA8D31ADBCD9E00B304A1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 847AA8CE1ADBCD9E00B304A1 /* AppDelegate.m */; };
+		847AA8D41ADBCD9E00B304A1 /* SENLocationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 847AA8D01ADBCD9E00B304A1 /* SENLocationManager.m */; };
+		847AA8D51ADBCD9E00B304A1 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 847AA8D21ADBCD9E00B304A1 /* ViewController.m */; };
+		847AA8D71ADBCDBA00B304A1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 847AA8D61ADBCDBA00B304A1 /* Main.storyboard */; };
+		847AA8D91ADBCDD700B304A1 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 847AA8D81ADBCDD700B304A1 /* Images.xcassets */; };
+		847AA8DB1ADBCE4000B304A1 /* SensoroBeaconKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 847AA8DA1ADBCE4000B304A1 /* SensoroBeaconKit.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		847AA8BE1ADBCD4100B304A1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 847AA89C1ADBCD4100B304A1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 847AA8A31ADBCD4100B304A1;
+			remoteInfo = "SensoroSDKActiveData-ObjC";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		847AA8A41ADBCD4100B304A1 /* SensoroSDKActiveData-ObjC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SensoroSDKActiveData-ObjC.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		847AA8A81ADBCD4100B304A1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		847AA8A91ADBCD4100B304A1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		847AA8B71ADBCD4100B304A1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		847AA8BD1ADBCD4100B304A1 /* SensoroSDKActiveData-ObjCTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "SensoroSDKActiveData-ObjCTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		847AA8C21ADBCD4100B304A1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		847AA8C31ADBCD4100B304A1 /* SensoroSDKActiveData_ObjCTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SensoroSDKActiveData_ObjCTests.m; sourceTree = "<group>"; };
+		847AA8CD1ADBCD9E00B304A1 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		847AA8CE1ADBCD9E00B304A1 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		847AA8CF1ADBCD9E00B304A1 /* SENLocationManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SENLocationManager.h; sourceTree = "<group>"; };
+		847AA8D01ADBCD9E00B304A1 /* SENLocationManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SENLocationManager.m; sourceTree = "<group>"; };
+		847AA8D11ADBCD9E00B304A1 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		847AA8D21ADBCD9E00B304A1 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		847AA8D61ADBCDBA00B304A1 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		847AA8D81ADBCDD700B304A1 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		847AA8DA1ADBCE4000B304A1 /* SensoroBeaconKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SensoroBeaconKit.framework; path = ../../../SensoroBeaconKit.framework; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		847AA8A11ADBCD4100B304A1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				847AA8DB1ADBCE4000B304A1 /* SensoroBeaconKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		847AA8BA1ADBCD4100B304A1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		847AA89B1ADBCD4100B304A1 = {
+			isa = PBXGroup;
+			children = (
+				847AA8DA1ADBCE4000B304A1 /* SensoroBeaconKit.framework */,
+				847AA8A61ADBCD4100B304A1 /* SensoroSDKActiveData-ObjC */,
+				847AA8C01ADBCD4100B304A1 /* SensoroSDKActiveData-ObjCTests */,
+				847AA8A51ADBCD4100B304A1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		847AA8A51ADBCD4100B304A1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				847AA8A41ADBCD4100B304A1 /* SensoroSDKActiveData-ObjC.app */,
+				847AA8BD1ADBCD4100B304A1 /* SensoroSDKActiveData-ObjCTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		847AA8A61ADBCD4100B304A1 /* SensoroSDKActiveData-ObjC */ = {
+			isa = PBXGroup;
+			children = (
+				847AA8CD1ADBCD9E00B304A1 /* AppDelegate.h */,
+				847AA8CE1ADBCD9E00B304A1 /* AppDelegate.m */,
+				847AA8CF1ADBCD9E00B304A1 /* SENLocationManager.h */,
+				847AA8D01ADBCD9E00B304A1 /* SENLocationManager.m */,
+				847AA8D11ADBCD9E00B304A1 /* ViewController.h */,
+				847AA8D21ADBCD9E00B304A1 /* ViewController.m */,
+				847AA8D61ADBCDBA00B304A1 /* Main.storyboard */,
+				847AA8B61ADBCD4100B304A1 /* LaunchScreen.xib */,
+				847AA8D81ADBCDD700B304A1 /* Images.xcassets */,
+				847AA8A71ADBCD4100B304A1 /* Supporting Files */,
+			);
+			path = "SensoroSDKActiveData-ObjC";
+			sourceTree = "<group>";
+		};
+		847AA8A71ADBCD4100B304A1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				847AA8A81ADBCD4100B304A1 /* Info.plist */,
+				847AA8A91ADBCD4100B304A1 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		847AA8C01ADBCD4100B304A1 /* SensoroSDKActiveData-ObjCTests */ = {
+			isa = PBXGroup;
+			children = (
+				847AA8C31ADBCD4100B304A1 /* SensoroSDKActiveData_ObjCTests.m */,
+				847AA8C11ADBCD4100B304A1 /* Supporting Files */,
+			);
+			path = "SensoroSDKActiveData-ObjCTests";
+			sourceTree = "<group>";
+		};
+		847AA8C11ADBCD4100B304A1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				847AA8C21ADBCD4100B304A1 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		847AA8A31ADBCD4100B304A1 /* SensoroSDKActiveData-ObjC */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 847AA8C71ADBCD4100B304A1 /* Build configuration list for PBXNativeTarget "SensoroSDKActiveData-ObjC" */;
+			buildPhases = (
+				847AA8A01ADBCD4100B304A1 /* Sources */,
+				847AA8A11ADBCD4100B304A1 /* Frameworks */,
+				847AA8A21ADBCD4100B304A1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "SensoroSDKActiveData-ObjC";
+			productName = "SensoroSDKActiveData-ObjC";
+			productReference = 847AA8A41ADBCD4100B304A1 /* SensoroSDKActiveData-ObjC.app */;
+			productType = "com.apple.product-type.application";
+		};
+		847AA8BC1ADBCD4100B304A1 /* SensoroSDKActiveData-ObjCTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 847AA8CA1ADBCD4100B304A1 /* Build configuration list for PBXNativeTarget "SensoroSDKActiveData-ObjCTests" */;
+			buildPhases = (
+				847AA8B91ADBCD4100B304A1 /* Sources */,
+				847AA8BA1ADBCD4100B304A1 /* Frameworks */,
+				847AA8BB1ADBCD4100B304A1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				847AA8BF1ADBCD4100B304A1 /* PBXTargetDependency */,
+			);
+			name = "SensoroSDKActiveData-ObjCTests";
+			productName = "SensoroSDKActiveData-ObjCTests";
+			productReference = 847AA8BD1ADBCD4100B304A1 /* SensoroSDKActiveData-ObjCTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		847AA89C1ADBCD4100B304A1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = Sensoro;
+				TargetAttributes = {
+					847AA8A31ADBCD4100B304A1 = {
+						CreatedOnToolsVersion = 6.3;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+						};
+					};
+					847AA8BC1ADBCD4100B304A1 = {
+						CreatedOnToolsVersion = 6.3;
+						TestTargetID = 847AA8A31ADBCD4100B304A1;
+					};
+				};
+			};
+			buildConfigurationList = 847AA89F1ADBCD4100B304A1 /* Build configuration list for PBXProject "SensoroSDKActiveData-ObjC" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 847AA89B1ADBCD4100B304A1;
+			productRefGroup = 847AA8A51ADBCD4100B304A1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				847AA8A31ADBCD4100B304A1 /* SensoroSDKActiveData-ObjC */,
+				847AA8BC1ADBCD4100B304A1 /* SensoroSDKActiveData-ObjCTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		847AA8A21ADBCD4100B304A1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				847AA8D91ADBCDD700B304A1 /* Images.xcassets in Resources */,
+				847AA8D71ADBCDBA00B304A1 /* Main.storyboard in Resources */,
+				847AA8B81ADBCD4100B304A1 /* LaunchScreen.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		847AA8BB1ADBCD4100B304A1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		847AA8A01ADBCD4100B304A1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				847AA8D41ADBCD9E00B304A1 /* SENLocationManager.m in Sources */,
+				847AA8D31ADBCD9E00B304A1 /* AppDelegate.m in Sources */,
+				847AA8D51ADBCD9E00B304A1 /* ViewController.m in Sources */,
+				847AA8AA1ADBCD4100B304A1 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		847AA8B91ADBCD4100B304A1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				847AA8C41ADBCD4100B304A1 /* SensoroSDKActiveData_ObjCTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		847AA8BF1ADBCD4100B304A1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 847AA8A31ADBCD4100B304A1 /* SensoroSDKActiveData-ObjC */;
+			targetProxy = 847AA8BE1ADBCD4100B304A1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		847AA8B61ADBCD4100B304A1 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				847AA8B71ADBCD4100B304A1 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		847AA8C51ADBCD4100B304A1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		847AA8C61ADBCD4100B304A1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		847AA8C81ADBCD4100B304A1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"/Users/admin/WorkSpace/Sensoro-IOS/iOS-DEMO",
+				);
+				INFOPLIST_FILE = "SensoroSDKActiveData-ObjC/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		847AA8C91ADBCD4100B304A1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"/Users/admin/WorkSpace/Sensoro-IOS/iOS-DEMO",
+				);
+				INFOPLIST_FILE = "SensoroSDKActiveData-ObjC/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		847AA8CB1ADBCD4100B304A1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "SensoroSDKActiveData-ObjCTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SensoroSDKActiveData-ObjC.app/SensoroSDKActiveData-ObjC";
+			};
+			name = Debug;
+		};
+		847AA8CC1ADBCD4100B304A1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "SensoroSDKActiveData-ObjCTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SensoroSDKActiveData-ObjC.app/SensoroSDKActiveData-ObjC";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		847AA89F1ADBCD4100B304A1 /* Build configuration list for PBXProject "SensoroSDKActiveData-ObjC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				847AA8C51ADBCD4100B304A1 /* Debug */,
+				847AA8C61ADBCD4100B304A1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		847AA8C71ADBCD4100B304A1 /* Build configuration list for PBXNativeTarget "SensoroSDKActiveData-ObjC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				847AA8C81ADBCD4100B304A1 /* Debug */,
+				847AA8C91ADBCD4100B304A1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		847AA8CA1ADBCD4100B304A1 /* Build configuration list for PBXNativeTarget "SensoroSDKActiveData-ObjCTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				847AA8CB1ADBCD4100B304A1 /* Debug */,
+				847AA8CC1ADBCD4100B304A1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 847AA89C1ADBCD4100B304A1 /* Project object */;
+}
