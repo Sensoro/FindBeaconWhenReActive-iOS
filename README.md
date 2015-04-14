@@ -1,5 +1,5 @@
 # FindBeaconWhenReActive-iOS
-<<<<<<< HEAD
+
 用于演示并测试App被Kill后激活，重启后激活，修改语言后激活等表现是否可以拿到Beacon的UMM、传感器数据等。
 
 ##目录内容
@@ -69,5 +69,3 @@ C0  | 0.99 | 20  | null | 17
         }];
     }
 ```
-=======
->>>>>>> f67e7d66bfdde31191627337bb4a5a8beea0cb05
