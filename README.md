@@ -68,9 +68,4 @@ C0  | 0.99 | 20  | null | 17
             bgTask = UIBackgroundTaskInvalid;
         }];
     }
-<<<<<<< HEAD
 ```
-=======
-```
-=======
->>>>>>> 1f6879de137c4115c5fcfa5e5e8dac618e013aa0
