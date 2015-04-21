@@ -40,7 +40,7 @@
         //设定代理
         _locationManager.delegate = self;
         //生成监测用的区域ID
-        _monitorRegion = [SBKBeaconID beaconIDWithProximityUUID:[[NSUUID alloc]initWithUUIDString:@"46D06053-9FAD-483B-B704-E576735CE1A3"] major:0x23A2 minor:0x854D];
+        _monitorRegion = [SBKBeaconID beaconIDWithProximityUUID:[[NSUUID alloc]initWithUUIDString:@"46D06053-9FAD-483B-B704-E576735CE1A4"] major:0x23A2 minor:0x854D];
         
     }
     return self;
@@ -82,14 +82,21 @@
     NSDateFormatter *formatter = [[NSDateFormatter alloc]init];
     formatter.dateFormat = @"YYYY/MM/dd HH:mm:ss";
     
+    NSString *alertbody =[NSString stringWithFormat:@"Enter: %@ %@ %@ %@ %@ %@ %@",beacon.beaconID.proximityUUID.UUIDString, beacon.beaconID.major,beacon.beaconID.minor,beacon.batteryLevel,beacon.temperature,beacon.light,beacon.accelerometerCount];
+    [self sendNotification:alertbody];
+    
     NSLog(@"Enter: %@",now);
 }
 
 - (void)beaconManager:(SBKBeaconManager *)beaconManager beaconDidGone:(SBKBeacon *)beacon{
+  
     NSDate *now = [NSDate date];
     NSDateFormatter *formatter = [[NSDateFormatter alloc]init];
     formatter.dateFormat = @"YYYY/MM/dd HH:mm:ss";
     
+    NSString *alertbody =[NSString stringWithFormat:@"Exit: %@ %@ %@ %@ %@ %@ %@",beacon.beaconID.proximityUUID.UUIDString, beacon.beaconID.major,beacon.beaconID.minor,beacon.batteryLevel,beacon.temperature,beacon.light,beacon.accelerometerCount];
+    [self sendNotification:alertbody];
+
     NSLog(@"Exit: %@",now);
 }
 
@@ -142,7 +149,7 @@
         beacon = beacons[0];
         NSLog(@"Beacon: %@ %@", beacon,beacon.beaconID.debugDescription);
         NSString *alertbody =[NSString stringWithFormat:@"Beacon %@ %@ %@ %@ %@ %@ %@",beacon.beaconID.proximityUUID.UUIDString, beacon.beaconID.major,beacon.beaconID.minor,beacon.batteryLevel,beacon.temperature,beacon.light,beacon.accelerometerCount];
-        [self sendNotification:alertbody];
+//        [self sendNotification:alertbody];
     }
     
 }

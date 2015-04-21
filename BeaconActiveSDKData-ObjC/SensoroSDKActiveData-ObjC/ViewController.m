@@ -38,7 +38,7 @@
     
     if (![SENLocationManager sharedInstance].started) {
         [_actionButton setTitle:@"结束检测" forState:UIControlStateNormal];
-        [[SENLocationManager sharedInstance]startMonitor:false];
+        [[SENLocationManager sharedInstance] startMonitor:false];
     }else{
         [_actionButton setTitle:@"启动检测" forState:UIControlStateNormal];
         [[SENLocationManager sharedInstance]stopMonitor];
